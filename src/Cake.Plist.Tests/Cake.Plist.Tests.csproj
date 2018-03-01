@@ -31,12 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Cake.Core, Version=0.22.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cake.Core.0.22.2\lib\net46\Cake.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Cake.Testing, Version=0.22.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cake.Testing.0.22.2\lib\net46\Cake.Testing.dll</HintPath>
-    </Reference>
     <Reference Include="NSubstitute, Version=1.10.0.0, Culture=neutral, PublicKeyToken=92dd2e9066daa5ca, processorArchitecture=MSIL">
       <HintPath>..\packages\NSubstitute.1.10.0.0\lib\net45\NSubstitute.dll</HintPath>
       <Private>True</Private>
@@ -60,6 +54,12 @@
     </Reference>
     <Reference Include="xunit.execution.dotnet">
       <HintPath>..\packages\xunit.extensibility.execution.2.1.0\lib\portable-net45+win8+wp8+wpa81\xunit.execution.dotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Cake.Core">
+      <HintPath>..\packages\Cake.Core.0.26.0\lib\net46\Cake.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Cake.Testing">
+      <HintPath>..\packages\Cake.Testing.0.26.0\lib\net46\Cake.Testing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
