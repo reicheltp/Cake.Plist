@@ -21,9 +21,7 @@
 
   <ItemGroup>
     <PackageReference Include="Cake.Core" Version="0.31.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
   </ItemGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net46' ">
-    <Reference Include="Microsoft.CSharp" />
-  </ItemGroup>
 </Project>
