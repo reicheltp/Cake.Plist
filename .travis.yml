@@ -1,6 +1,6 @@
 language: csharp
 script:
-  - ./build.sh -v diagnostic
+  - ./build.sh --verbosity=diagnostic
 os:
   - linux
   - osx
