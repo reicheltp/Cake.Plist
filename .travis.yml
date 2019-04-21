@@ -6,6 +6,10 @@ os:
   - linux
   - osx
 
+# Ubuntu 16.04
+sudo: required
+dist: xenial
+
 mono:
   - latest
 dotnet: 2.1.502
