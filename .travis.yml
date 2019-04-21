@@ -1,9 +1,15 @@
 language: csharp
 script:
   - ./build.sh --verbosity=diagnostic
+
 os:
   - linux
   - osx
+
+mono:
+  - latest
+dotnet: 2.1.502
+
 cache:
   directories:
     - packages
